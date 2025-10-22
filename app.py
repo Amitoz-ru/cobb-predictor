@@ -17,7 +17,15 @@ except Exception:
 # --------------------
 # Config - adjust paths if needed
 # --------------------
-MODEL_PATH = r"D:\Professional\Projects\Aiims\Gait\Data\project work\Surface topography data\All_cropped\svm_cobb_model.pkl"
+#MODEL_PATH = r"D:\Professional\Projects\Aiims\Gait\Data\project work\Surface topography data\All_cropped\svm_cobb_model.pkl"
+
+# --------------------
+# Config - adjust paths if needed
+# --------------------
+HERE = os.path.dirname(__file__)  # project root where app file lives
+MODEL_PATH = os.path.join(HERE, "models", "svm_cobb_model.pkl")
+
+
 
 # Default XY/Z used by your crop function
 DEFAULT_X_RANGE = (-0.6, 0.5)

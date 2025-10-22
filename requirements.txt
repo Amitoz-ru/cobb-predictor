@@ -8,12 +8,12 @@ openpyxl
 rapidfuzz
 tqdm
 matplotlib
-streamlit
+#streamlit
 open3d
-numpy
-pandas
-scikit-learn
+#numpy
+#pandas
+#scikit-learn
 joblib
 plotly
-trimesh
+#trimesh
 scipy
